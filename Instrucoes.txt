@@ -1,0 +1,9 @@
+1.Restaurar a base de dados AngWebApiBD utilizando o arquivo de back-up em um banco SQL Server, de preferência utilizando o local DB.
+2.Abrir as pastas CRUD_ANGULAR e CRUD_API no Visual Studio Code.
+3.No arquivo appsettings.json, na pasta CRUD_API, verificar se a string de conexão está configurada corretamente de acordo com o backup restaurado, caso não esteja alterar para a string correta.
+4.Através do terminal, executar o comando  "dotnet run" na pasta CRUD_API.
+5.Através do terminal, executar o comando  "ng serve" na pasta CRUD_ANGULAR.
+6.Acessar a url http://localhost:4200/candidatos e realizar os testes.
+
+
+
